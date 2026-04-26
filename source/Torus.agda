@@ -2,7 +2,7 @@
 module Torus where
 
 open import Agda.Primitive.Cubical
-open import Agda.Builtin.Cubical.Path -- ≡ 정의를 위해 필요합니다.
+open import Agda.Builtin.Cubical.Path
 
 data Torus : Set where
     point  : Torus
