@@ -8,8 +8,8 @@ open import Cubical.Core.Primitives --기초 요소를 불러옵니다.
 ## type definition
 ```agda
 data Bool : Set where
-    true :Bool
-    false :Bool
+  true :Bool
+  false :Bool
 ```
 Set은 Ocaml의 type에 해당하며 타입들의 타입을 의미한다.
 <br>
@@ -20,4 +20,11 @@ where 뒤에 오는것들은 이 타입이 가질수있는 생성자들이다.
 not : Bool -> Bool
 not true = false
 not false = true
+```
+
+## practice
+```agda
+and : Bool -> Bool -> Bool
+and true true = true
+and _ _ = false
 ```
