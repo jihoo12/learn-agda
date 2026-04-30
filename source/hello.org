@@ -1,3 +1,7 @@
 hello it is org file wroted in emacs
 space g g for magit status
 q for escape from magit status buffer
+s for stage file
+u for unstage file
+c c for commit and write commit message and C-c C-c(Ctrl c Ctrl c) for commit
+P u for push
