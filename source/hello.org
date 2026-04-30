@@ -1,0 +1,3 @@
+hello it is org file wroted in emacs
+space g g for magit status
+q for escape from magit status buffer
