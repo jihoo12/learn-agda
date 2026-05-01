@@ -28,3 +28,4 @@ and : Bool -> Bool -> Bool
 and true true = true
 and _ _ = false
 ```
+# try use org mode for learn agda
