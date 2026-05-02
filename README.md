@@ -1,3 +1,4 @@
+# deprecated
 read https://agda.readthedocs.io/en/latest/language/cubical.html#introduction
 
 # learn-agda
