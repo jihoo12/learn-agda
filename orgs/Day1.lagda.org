@@ -1,0 +1,10 @@
+#+title: Day1
+#+begin_src agda2
+{-# OPTIONS --cubical --guardedness #-}
+module Day1 where
+open import Cubical.Core.Primitives
+open import Cubical.Core.Glue
+Square : ∀ {ℓ} {A : Set ℓ} {x0 x1 y0 y1 : A} →
+           x0 ≡ x1 → y0 ≡ y1 → x0 ≡ y0 → x1 ≡ y1 → Set ℓ
+Square p q r s = PathP (λ i → p i ≡ q i) r s
+#+end_src

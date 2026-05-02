@@ -1,0 +1,3 @@
+name: orgs
+include: .
+depend: cubical

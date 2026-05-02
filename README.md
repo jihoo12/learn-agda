@@ -29,3 +29,4 @@ and true true = true
 and _ _ = false
 ```
 # try use org mode for learn agda
+read https://agda.readthedocs.io/en/latest/language/cubical.html#introduction
