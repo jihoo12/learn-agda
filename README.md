@@ -1,5 +1,5 @@
 # deprecated
-read https://agda.readthedocs.io/en/latest/language/cubical.html#introduction
+go to learn-agda-new
 
 # learn-agda
 ## basic
